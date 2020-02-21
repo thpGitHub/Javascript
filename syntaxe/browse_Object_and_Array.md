@@ -1,6 +1,6 @@
-# for ... in, for ... of, foreach()
+# for...in, for...of, foreach()
 
-# 1. for ... in  (instruction)
+# 1. for...in  (instruction)
 >(pour les objets, éviter fortement de l'utiliser sur un array !)
 
   >  permet d'itérer sur les propriétées d'un objet
@@ -18,7 +18,7 @@ for (var prop in obj) {
 ```
 
 
-# 2. for ... of (instruction)
+# 2. for...of (instruction)
 ```javascript
 const array1 = ['a', 'b', 'c'];
 
