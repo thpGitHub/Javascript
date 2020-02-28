@@ -32,6 +32,28 @@ for (const element of array1) {
 ```
 
 # 3. foreach() (methode)
+
+```javascript
+var items = ["item1", "item2", "item3"]
+var copie = [];
+
+items.forEach(function(item){
+  copie.push(item);
+});
+```
+
+
+```javascript
+let arr = [3, 5, 7];
+arr.toto = "coucou";
+
+arr.forEach(function (element, index) {
+  console.log(element); // affiche "3", "5", "7"
+  console.log(index);  // affiche "0", "1", "2"
+});
+```
+
+
 > La méthode forEach() permet d'exécuter une fonction donnée sur chaque élément du tableau.
 
 
