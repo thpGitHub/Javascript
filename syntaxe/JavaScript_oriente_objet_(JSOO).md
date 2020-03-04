@@ -63,6 +63,7 @@ var personne1 = new Object({
 });
 ```
 ##### 3eme technique : méthode create()
+> permet d'instancier un objet à partir d'un objet existant  .
 ```javascript
 var personne2 = Object.create(personne1);
 ```
